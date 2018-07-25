@@ -292,7 +292,7 @@ nav ul li {
       color: aliceblue;
       background: crimson;
       margin: 10px;
-      min-width: 300px;
+      min-width: 250px;
       max-width: 600px;
       min-height: 300px;
       max-height: 600px; }
@@ -512,8 +512,26 @@ Due to the split circle of progress-left and progress right, we must use the ani
 @media only screen and (min-width: 771px) {
   nav {
     display: block; } }
+@media only screen and (max-width: 771px) {
+  #resume {
+    font-size: 10px; }
+
+  .date h1 {
+    font-size: 0.7rem; } }
 @media only screen and (max-width: 500px) {
   .information {
-    min-width: 300px; } }
+    min-width: unset; }
+
+  #education, #experience {
+    padding-right: 10px;
+    padding-left: 10px; }
+    #education .dateContainer, #experience .dateContainer {
+      min-width: 70px; }
+    #education .description, #experience .description {
+      padding-right: 0px;
+      padding-left: 10px; }
+
+  #projects ul li {
+    min-width: 250px; } }
 
 /*# sourceMappingURL=style.css.map */
