@@ -126,7 +126,7 @@
        class="milestones"
        display="none"
        id="OPCertObtained"
-       style="display:none">
+       style="display:hidden">
       <circle
          transform="rotate(-90)"
          r="12.099764"
@@ -148,7 +148,7 @@
        class="milestones"
        display="none"
        id="OPGetDegree"
-       style="display:none">
+       style="display:hidden">
       <circle
          style="opacity:1;vector-effect:none;fill:#d8d8d8;fill-opacity:1;stroke:#d8d8d8;stroke-width:3.40157485;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
          id="circle881"
@@ -167,7 +167,7 @@
       </g>
     </g>
     <g
-       style="display:none"
+       style="display:hidden"
        class="milestones"
        display="none"
        id="OPObtainJob">
@@ -273,7 +273,7 @@
        class="milestones"
        display="none"
        id="CPBegining"
-       style="display:none">
+       style="display:hidden">
       <circle
          transform="rotate(-90)"
          r="12.099764"
@@ -295,7 +295,7 @@
        class="milestones"
        display="none"
        id="CPCertObtained"
-       style="display:none">
+       style="display:hidden">
       <circle
          style="opacity:1;vector-effect:none;fill:#d8d8d8;fill-opacity:1;stroke:#d8d8d8;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
          id="circle887"
@@ -317,7 +317,7 @@
        class="milestones"
        display="none"
        id="CPTrials"
-       style="display:none">
+       style="display:hidden">
       <circle
          transform="rotate(-90)"
          r="12.099764"
@@ -339,7 +339,7 @@
        class="milestones"
        display="none"
        id="CPBKOnTrack"
-       style="display:none">
+       style="display:hidden">
       <circle
          style="opacity:1;vector-effect:none;fill:#d8d8d8;fill-opacity:1;stroke:#d8d8d8;stroke-width:3.40157485;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
          id="circle891"
@@ -361,7 +361,7 @@
        class="milestones"
        display="none"
        id="CPGetDegree"
-       style="display:none">
+       style="display:hidden">
       <circle
          transform="rotate(-90)"
          r="12.099764"
@@ -383,7 +383,7 @@
        class="milestones"
        display="none"
        id="CPObtainJob"
-       style="display:none">
+       style="display:hidden">
       <circle
          style="opacity:1;vector-effect:none;fill:#d8d8d8;fill-opacity:1;stroke:#d8d8d8;stroke-width:3.40157485;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
          id="circle895"
