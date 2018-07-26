@@ -124,7 +124,7 @@
     </g>
     <g
        class="milestones"
-       display="none"
+       
        id="OPCertObtained"
        style="display:hidden">
       <circle
@@ -146,7 +146,7 @@
     </g>
     <g
        class="milestones"
-       display="none"
+       
        id="OPGetDegree"
        style="display:hidden">
       <circle
@@ -169,7 +169,7 @@
     <g
        style="display:hidden"
        class="milestones"
-       display="none"
+       
        id="OPObtainJob">
       <circle
          transform="rotate(-90)"
@@ -271,7 +271,7 @@
        inkscape:connector-curvature="0" />
     <g
        class="milestones"
-       display="none"
+       
        id="CPBegining"
        style="display:hidden">
       <circle
@@ -293,7 +293,7 @@
     </g>
     <g
        class="milestones"
-       display="none"
+       
        id="CPCertObtained"
        style="display:hidden">
       <circle
@@ -315,7 +315,7 @@
     </g>
     <g
        class="milestones"
-       display="none"
+       
        id="CPTrials"
        style="display:hidden">
       <circle
@@ -337,7 +337,7 @@
     </g>
     <g
        class="milestones"
-       display="none"
+       
        id="CPBKOnTrack"
        style="display:hidden">
       <circle
@@ -359,7 +359,7 @@
     </g>
     <g
        class="milestones"
-       display="none"
+       
        id="CPGetDegree"
        style="display:hidden">
       <circle
@@ -381,7 +381,7 @@
     </g>
     <g
        class="milestones"
-       display="none"
+       
        id="CPObtainJob"
        style="display:hidden">
       <circle
