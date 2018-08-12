@@ -9,6 +9,14 @@ $(window).on('load',function(){
 
     //wait 500ms to ensure all animations are properly set up before allowing script to call
     setTimeout(function(){
+        var navBar = new ScrollMagic.Scene({
+            offset:15
+        })
+        .addTo(scrollController)
+        .on("enter", hideTitle)
+        .on("leave", showTitle)
+        .addIndicators();
+
         var resume = new ScrollMagic.Scene({
             triggerElement: "#resume",
             offset:200

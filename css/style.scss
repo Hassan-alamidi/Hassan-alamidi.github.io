@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
 }
 #navbar{
-    position: absolute;
+    position: fixed;
     z-index:  1;
     width: 100%;
     margin: 0 auto;
@@ -74,7 +74,7 @@ nav ul li{
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: black;
+    background-color: beige;
     margin: 5px 0;
 }
 
@@ -538,7 +538,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
         display: block;
     }
     #topNav{
-        justify-content: space-between;
+        justify-content: flex-end;
     }
     
     
