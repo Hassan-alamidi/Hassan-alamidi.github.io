@@ -20,14 +20,17 @@ ajax.onload = function(e){
 	//child node 4 should be null therefore the svg will be placed last
 	reference.insertBefore(div,reference.childNodes[4]);
 }
+
 function playTimelineAnimation(){
 	t1.play();
 	t2.play();
 	t3.play();
 }
+
 function finalAnimation(){
 	ending.play();
 }
+
 function timeLineAnimation(){
 	//setTimeout to ensure object has been fully loaded
 	//may need to mess around with timings when live but I think 100ms (I think less would work too) coupled with onload event should do the job
@@ -117,7 +120,7 @@ function beginAnimation(){
 		if(typeof time !== undefined && typeof time !== 'undefined'){
 			if(time.key === "timeline"){
 				t3.to(time.physicalObject, 1.2, {opacity:1, ease:Linear.easeNone});
-			}else if(time.key === "originalPlantxt" || time.key === "currentProgressTxt" ){
+			}else if(time.key === "originalPlantxt" || time.key === "currentProgressTxt" || time.key === "yearTxt"){
 				t3.to(time.physicalObject, 1.2, {opacity:1, ease:Linear.easeNone}, 1);
 			}else{
 

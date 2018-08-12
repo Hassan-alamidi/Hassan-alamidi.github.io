@@ -258,6 +258,10 @@ nav ul li{
     padding-left:25px;
 }
 
+#skills{
+    color:#585958;
+}
+
 #skills, #hobbies{
     background-color: #f3f3f2;
     padding-bottom: 150px;
@@ -488,19 +492,19 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 	@if $i <= ($howManySteps/2) { 
 		.progress[data-percentage="#{$stepName}"] {
-			.progress-right .progress-bar {
+			.progress-right .animate-bar {
 				 animation: loading-#{$i} $animationTime linear forwards;
 			}
-			.progress-left .progress-bar {animation: 0;}
+			.progress-left .animate-bar {animation: 0;}
 		}
 	}
 
 	@if $i > ($howManySteps/2)  {  
 		.progress[data-percentage="#{$stepName}"] {
-			.progress-right .progress-bar {
+			.progress-right .animate-bar {
 				animation: loading-#{($howManySteps/2)} $animationTime linear forwards; //set the animation to longest animation
 			}
-			.progress-left .progress-bar {
+			.progress-left .animate-bar {
       animation: loading-#{$i - ($howManySteps/2)} $animationTime linear forwards $animationTime;
     }
 		}
@@ -556,6 +560,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 @media only screen and (max-width:771px){
  #resume{
         font-size: 10px;
+        flex-direction: column;
     }
     
     .date h1 {
@@ -587,5 +592,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
         min-width: 250px;
     }
 }
+
+
 
    
