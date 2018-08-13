@@ -31,3 +31,15 @@ function hideTitle(){
 function showTitle(){
 	titleVisibility.reverse();
 }
+
+function darkNav(){
+	TweenMax.to($('navBar'), 1 , {background:black});
+}
+
+function lightNav(){
+	TweenMax.to($('navBar'), 1 , {background:white});
+}
+
+function transparentNav(){
+	TweenMax.to($('navBar'), 1 , {background:"#00000000"});
+}
