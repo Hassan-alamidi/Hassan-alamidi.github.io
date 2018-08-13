@@ -20,7 +20,7 @@ $(document).ready(()=>{
 
 	//while just setting the animation without a const would have worked I wanted to ensure that calling show or hide title had no effect after the first call
 	//so the title is now only toggle 
-	titleVisibility.to($('#navbar'),1,{top:-50});
+	titleVisibility.to($('#navbar'),1,{top:-56});
 	
 });
 
@@ -33,13 +33,19 @@ function showTitle(){
 }
 
 function darkNav(){
-	TweenMax.to($('navBar'), 1 , {background:black});
+	TweenMax.to($('#navbar'), 1.2 , {background:"rgba(88, 89, 87, 1)"});
+	TweenMax.to($('.hamburger'), 1.2 , {"background-color":"rgba(255, 255, 255, 1)"});
+	TweenMax.to($('nav ul li a'), 1.2 , { color:"rgba(255, 255, 255, 1)"});
 }
 
 function lightNav(){
-	TweenMax.to($('navBar'), 1 , {background:white});
+	TweenMax.to($('#navbar'), 1.2 , {background:"rgba(243, 243, 242, 1)"});
+	TweenMax.to($('.hamburger'), 1.2 , {"background-color":"rgba(0, 0,0, 1)"});
+	TweenMax.to($('nav ul li a'), 1.2 , { color:"rgba(0, 0,0, 1)"});
 }
 
 function transparentNav(){
-	TweenMax.to($('navBar'), 1 , {background:"#00000000"});
+	TweenMax.to($('#navbar'), 1.2 , {background:"rgba(0, 0, 0, 0)"});
+	TweenMax.to($('.hamburger'), 1.2 , {"backgroun-color":"rgba(255, 255, 255, 1)"});
+	TweenMax.to($('nav ul li a'), 1.2 , { color:"rgba(255, 255, 255, 1)"});
 }
