@@ -117,8 +117,10 @@
          id="OPCertObtained"
          style="display:none">
         <circle
-           transform="rotate(-90)"
+           transform="rotate(-90.1)"
            r="12.099764"
+           cy="120.47487"
+           cx="-41.495018"
            id="circle879"
            style="opacity:1;vector-effect:none;fill:#d8d8d8;fill-opacity:1;stroke:#d8d8d8;stroke-width:3.40157485;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
         <g
